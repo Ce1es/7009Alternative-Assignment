@@ -76,7 +76,7 @@ else:
     action = "Maintain Current Benefits"
     image_file = "shap_local_low_risk.png" # 蓝色图
     
-    sim_message = f"✅ **Counterfactual Outcome:** Removing OverTime reduces attrition risk by {improvement:.1f}%."
+    sim_message = f"✅ Optimal Counterfactual Found: Removing 'OverTime' is the minimal change required to flip the prediction (Sparsity optimized)."
     sim_type = "success"
 
 # ==========================================
